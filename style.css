@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 700px;
+    margin: auto;
+}
+input, textarea, button {
+    padding: 1rem .5rem;
+    margin-block: .2rem;
+    outline: 0;
+    border: 1px solid #d1d0d6;
+}
+textarea {
+    resize: none;
+    height: 200px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #DDD;
+    transition: background .3s;
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    -ms-transition: background .3s;
+    -o-transition: background .3s;
+}
